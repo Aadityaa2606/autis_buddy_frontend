@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaBrain, FaMusic, FaVideo, FaArrowRight, FaWaveSquare, FaChartLine } from "react-icons/fa";
+import { FaBrain, FaMusic, FaVideo, FaArrowRight, FaWaveSquare } from "react-icons/fa";
 
 export default function HowTo() {
   return (
@@ -31,7 +31,7 @@ export default function HowTo() {
               exacerbates behavioral and emotional challenges, creating a cycle that is difficult to break.
             </p>
             <p className="text-gray-700 mb-4">
-              To address this issue, we've developed a machine learning (ML) model that analyzes the brain 
+              To address this issue, we&apos;ve developed a machine learning (ML) model that analyzes the brain 
               waves (EEG data) of autistic children. By extracting meaningful parameters from the EEG signals, 
               the system generates personalized, calming content to help the child transition from a 
               hyperactive state to a calm, restful one.
@@ -46,7 +46,7 @@ export default function HowTo() {
                   <h4 className="font-medium text-lg text-gray-900 mb-2">Custom Soothing Music</h4>
                   <p className="text-gray-700">
                     Generated dynamically based on EEG-derived parameters, with specific musical notes 
-                    or chords (e.g., A-sharp, C-sharp) tailored to the child's current brain state.
+                    or chords (e.g., A-sharp, C-sharp) tailored to the child&apos;s current brain state.
                   </p>
                 </div>
               </div>
@@ -146,9 +146,9 @@ export default function HowTo() {
                       </ul>
                     </div>
                     <p className="text-gray-700 text-sm">
-                      The dominant wave reflects the child's baseline state, personalizing the key to their 
+                      The dominant wave reflects the child&apos;s baseline state, personalizing the key to their 
                       typical brain activity. Different keys evoke different emotional responses to match or 
-                      counteract the child's state.
+                      counteract the child&apos;s state.
                     </p>
                   </div>
                 </div>
@@ -211,7 +211,7 @@ export default function HowTo() {
                       velocity[i] = 40 + 40 * (max_alpha / 100)
                     </div>
                     <p className="text-gray-700 text-sm">
-                      Range: 40–80. Ties velocity to the child's peak relaxation capacity (max_alpha), 
+                      Range: 40–80. Ties velocity to the child&apos;s peak relaxation capacity (max_alpha), 
                       personalizing loudness to their strongest calm state.
                     </p>
                   </div>
@@ -251,7 +251,7 @@ export default function HowTo() {
                     </div>
                     <p className="text-gray-700 text-sm">
                       If the most frequent state is arousal, reverses step direction to create descending 
-                      melodies that musically "wind down" arousal.
+                      melodies that musically &quot;wind down&quot; arousal.
                     </p>
                   </div>
                 </div>
@@ -307,7 +307,7 @@ export default function HowTo() {
               <div className="bg-blue-50 p-5 rounded-lg">
                 <h4 className="font-medium text-lg text-gray-900 mb-3">Personalization</h4>
                 <p className="text-gray-700">
-                  Global parameters reflect the child's overall EEG profile via averages and maxima, 
+                  Global parameters reflect the child&apos;s overall EEG profile via averages and maxima, 
                   while per-interval parameters adapt to moment-to-moment changes.
                 </p>
               </div>
